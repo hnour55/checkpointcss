@@ -1,0 +1,67 @@
+@font-face{
+    font-family: titre ;
+    src: url(./Sobiscuit.otf);
+}
+body{
+    background-color: rgba(240, 191, 240, 0.912);
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+samp{
+    font-size: 25px ;
+    padding-right: 555px;
+    font-weight: bold;
+    font-family:inherit;
+    color: rgb(131, 22, 163);
+}
+li{
+    list-style-type: none;
+    font-size: 20px;
+    display: inline;
+    font-weight: bold;
+    padding: 50px ;
+    color:  rgb(131, 22, 163);
+}
+a {
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    top: 0 ;
+    background-color: azure;
+    right: 0 ;
+    left: 0 ;
+}
+#tout{
+    margin-top: 5% ;
+    margin-left: 10px;
+}
+h1{
+    font-family: titre ;
+    color: blueviolet;
+    text-align: center;
+}
+#p1{
+    font-family: "Signika", sans-serif;
+    color:rgb(56, 43, 43);
+    font-size: 25px ;
+}
+h2{
+    color: rgba(120, 85, 146, 0.999);
+    font-family: "Lobster", sans-serif;
+    font-size: 30px;
+}
+h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+}
+th, td {
+    font-size: 40px;
+    padding: 20px;
+}
+b{
+    font-size: 25px;
+    color: rgb(131, 29, 110);
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+</head>
+<body>
+  <h2>contactez-nous</h2>
+    <h5> Des objectifs digitaux à atteindre ? N’hésitez pas à nous confier vos missions !
+      <br> Pour toute demande de devis, de conseils ou de rendez-vous, 
+      remplissez le formulaire ci-dessous ! <br>
+      Aucune offre de recrutement ne sera acceptée sur cette adresse. <br><br>
+    </h5>
+  <form action="/action_page.php">
+    <table class="table table-borderless">
+      <tr>
+        <td><label for="np">Nom et Prénom:</label></td>
+        <td>
+          <input type="text" id="np" placeholder="Entrer votre nom et prénom" name="nom">
+        </td>
+      </tr>
+      <tr>
+        <td><label for="email">Email:</label></td>
+        <td>
+          <input type="email" id="email" placeholder="Entrer ton email" name="email">
+        </td>
+      </tr>
+      <tr>
+        <td><label for="pwd">Password:</label></td>
+        <td>
+          <input type="password" id="pwd" placeholder="Entrer ton mot de passe" name="pswd">
+        </td>
+      </tr>
+      <tr>
+        <td><label for="tlf">Téléphone:</label></td>
+        <td>
+          <input type="tel"  id="tlf" placeholder="Entrer ton téléphone" name="tlfn">
+        </td>
+      </tr>
+      <tr>
+        <div class="form-group">
+          <td><label for="country">Pays:</label></td>
+          <td>
+            <select class="form-control" id="country" name="country" onchange="showOtherInput()">>
+              <option value="1">Tunis </option>
+              <option value="2">France </option>
+              <option value="3">USA</option>
+              <option value="other" id="other">Autre</option>
+            </select>
+            <div class="form-group" id="otherCountryInput">
+              <label for="otherCountry">entrer ton pays:</label>
+              <input type="text" class="form-control" id="otherCountry" name="otherCountry">
+            </div>
+          </td>
+        </div>
+      </tr>
+      <tr>
+        <td><label for="ville">Ville:</label></td>
+        <td>
+          <input type="text" id="ville" placeholder="Entrer votre ville" name="ville">
+        </td>
+      </tr>
+      <tr>
+        <td><label for="ville">Ville:</label></td>
+        <td>
+          <input type="text" id="ville" placeholder="Entrer votre ville" name="ville">
+        </td>
+      </tr>
+      <tr>
+        <td><label for="cp">Code postale:</label></td>
+        <td>
+          <input type="text" id="cp" placeholder="Entrer votre code postale" name="cp">
+        </td>
+      </tr>
+      <tr>
+        <td><label for="stweb">Site Web:</label></td>
+        <td>
+          <select name="stwb" id="stwb">
+            <option value="1">Développement</option>
+            <option value="2">Intelligence web </option>
+            <option value="3">Digital marketting</option>
+            <option value="4">Réseaux Sociaux </option>
+            <option value="5">Marketting de contenue </option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="msg">message:</label></td>
+        <td>
+          <textarea name="msg" id="" cols="40" rows="5"placeholder="Ecrit ton message"></textarea>
+        </td>
+      </tr>
+    </table>
+    <button type="submit" id="bt">Envoyer</button>
+  </form>
+      
+</body>
+</html>
